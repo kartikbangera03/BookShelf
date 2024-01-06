@@ -1,0 +1,78 @@
+.nav-bar{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 100px 100px 1fr;
+    align-items: center;
+    gap: 20px 20px;
+    padding-left: 50px;
+}
+.logo>img{
+    width : 100px;
+    height: 100px;
+}
+
+.nav-bar>span{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+button{
+width: 75px;
+height: 75px;
+font-size: 2rem;
+font-weight: 700;
+}
+
+.nav-bar>button{
+    align-self: center;
+    justify-self: end;
+    margin-right: 50px ;
+}
+
+dialog>form{
+    display: grid;
+    gap: 10px 20px;
+}
+
+form>button{
+    font-size: 1rem;
+    border-radius: 10px;
+    justify-self: center;
+    height: 30px;
+}
+
+.switch{
+    width: 120px;
+    height: 70px;
+}
+
+.card-container{
+    margin-bottom: 20px;
+    padding-left: 50px;
+    padding-top: 50px;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 40px 40px;
+}
+
+.cards{
+    border: 1px solid black;
+    width: 200px;
+    height: 250px;
+    font-size: 1.5rem;
+    padding: 20px;
+    border-left: 15px solid grey;
+    padding-bottom: 50px;
+    text-align: center;
+    font-weight: 550;
+    box-shadow:  0px 0px 5px 5px lightgray;
+    line-height: 3rem;
+}
+
+.cards:hover{
+    /* background-color: rgb(210, 210, 210); */
+    box-shadow:  0px 0px 7px 5px gray;
+
+}
+
