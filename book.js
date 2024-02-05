@@ -1,11 +1,14 @@
 const myLibrary = [];
 
-function Book(title, author, pages, read){
-    this.title = title;
-    this.author = author;
-    this.pages =  pages;
-    this.read = read;
+class Book{
+    constructor(title, author, pages, read){
+        this.title = title;
+        this.author = author;
+        this.pages =  pages;
+        this.read = read;
+    }
 }
+
 
 function addBookToLibrary(i){
     const cardContainer = document.querySelector(".card-container");
@@ -43,6 +46,8 @@ function addBookToLibrary(i){
     postElement.appendChild(label);
     
     
+ 
+
 
 }
 
